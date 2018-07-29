@@ -28,7 +28,6 @@ const markify = async url => {
 
     json = json.payload.value;
     postId = json.id;
-    console.log(json.content.bodyModel.paragraphs);
 
     markdown += `#${json.title}\n\n`;
     markdown += `##${json.content.subtitle}\n\n`;
